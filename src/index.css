@@ -1,0 +1,33 @@
+body {
+   min-width: 600px;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.pad10{
+   padding-bottom: 10px;
+}
+.pad10top{
+   padding-top: 10px;
+}
+.countStyle{
+   font-size: 40px;
+   text-align: center;
+   background: #e5e5e5;
+}
+.taskStyle{
+   font-size: 40px;
+   text-align: center;
+}
+
+/* The slow way */
+.make-it-slow {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Transition to a bigger shadow on hover */
+.make-it-slow:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
